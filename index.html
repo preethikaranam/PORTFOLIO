@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" type="image/x-icon" href="https://i.imgur.com/l7P8Q7r.jpeg">
+<script src="https://kit.fontawesome.com/a4d9e5dd79.js" crossorigin="anonymous"></script>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<style>
+.flex{
+    margin-left: 20vw;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 20vw;
+  background-color:red;
+  position: fixed;
+  height: 100%;
+}
+.s{
+font-size:35px;
+  color:red;
+  font-family:sans serif;
+  padding: 1px 1px;
+  font-weight: 700;
+  
+}
+
+.sidebar a {
+  display: block;
+  padding:30px;
+  color: white;
+  text-align:center;
+  text-decoration: none;
+  font-size:20px;
+}
+ 
+.sidebar a:hover {
+  background-color: red;
+  color: #555;
+}
+img {
+  border-radius: 50%;
+  position:center;
+  display:block;
+  text-align:center;
+  margin: auto;
+}
+.content {
+  margin-top: 3vw;
+  margin-bottom: 4vw;
+  color:#555;
+  padding: 1px 20px;
+  text-align: center;
+  font-size:40px;
+}
+.ss{
+    font-size:25px;
+    color:red;
+    font-family:sans serif;
+    text-align: center;
+}
+.contact{
+    color:red; 
+    margin-left:720px;
+    font-size: 30px;
+    font-family: sans serif;
+    position:centered;
+}
+.ll{
+color:#555;
+font-size:25px;
+}
+.l{
+color:#555;
+font-size:25px;
+margin-left:35px;
+}
+.lll{
+color:#555;
+font-size:25px;
+margin-left:40px;
+}
+.c{
+  font-size:30px;
+  color:red;
+  font-family:sans serif;
+  font-weight: 700; 
+  padding: 1px 0px;
+}
+.d{
+  display: block;
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+  background:pink;
+  line-height: 60px;
+  border-radius: 75%;
+  cursor: pointer;
+  transition: .5s;
+  margin-left:300px;
+}  
+.d:hover{
+  color: purple;
+  box-shadow: 0 0 15px purple;
+  text-shadow: 0 0 15px purple;
+}
+.k{
+  font-size:30px;
+  color:red;
+  font-family:sans serif;
+  font-weight: 700;
+
+}
+.p{
+  font-size:25px;
+  color:#555;
+  font-family:sans serif;
+}
+.j{
+  color:#555;
+  font-size:25px;
+
+  font-family:sans serif;
+  line-height: 1.5;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#myhome">Home</a>
+        <a href="#myskills">skills</a>
+        <a href="#mycontact">Contact</a>
+        <a href="#aboutme">About</a>
+    </div>
+    <div class="flex">
+        <div id="myhome" class="content">
+            <span>PORTFOLIO</span>
+        </div>
+        <div class="image">
+            <img src="https://i.imgur.com/l7P8Q7r.jpeg" alt="photo" style="width:200px">
+        </div>
+        <div class="ss">
+            <span>Karanam Preethi</span><br>
+            <span>Frontend Developer</span>
+        </div>
+        <div id="aboutme" class="s">
+            <p>About<p>
+        </div>
+        <div class="j">
+            <p>My name is Karanam Preethi. I am pursuing my Bachelors Degree at IIT Jodhpur from Electrical Engineerings branch. I was very interested in learning new things related to technology. </p>
+        </div>
+        <div id="myskills" class="k">
+            <span>skills</span>
+        </div>
+        <div class="p">    
+            <span>I am good at CPP , C languages. I was learnt Python but I was not much exposed to it. Now I am learning HTML, CSS & Javascript.</span>
+        </div>
+        <div class="c" id="mycontact">
+            <p>Contact</p>
+        </div>
+        <div class="flex1">
+            <div class="col">
+                <a  class="d" href="mailto:preethikaranam5@gmail.com" target="_blank" style="text-decoration: none; margin-left: 40px;"><i class="fa fa-envelope " style="color:#ff008f; text-align: center;margin: auto;"></i></a>
+                <br>
+                <a class="ll" href="mailto:preethikaranam5@gmail.com" target="_blank" style="text-decoration: none;">Gmail</a>
+            </div>
+            <div class="col">
+                <a class="d" href="https://www.linkedin.com/in/preethi-karanam-238747245" tagret="_blank" style="text-decoration: none; margin-left: 60px;"><i class="fa-brands fa-linkedin " style="color:#ff008f; text-align: center;"></i></a>
+                <br>
+                <a class="l" href="https://www.linkedin.com/in/preethi-karanam-238747245" tagret="_blank" style="text-decoration: none;">linkedin</a>
+            </div>
+            <div class="col">
+                <a class="d" href="https://instagram.com/preethikaranam5?igshid=YmMyMTA2M2Y="  target="_blank" style="text-decoration: none; margin-left: 80px;"><i class="fa fa-instagram" style="color:#ff008f;text-align: center;"></i></a>
+                <br>
+                <a class="lll" href="https://instagram.com/preethikaranam5?igshid=YmMyMTA2M2Y="  target="_blank" style="text-decoration: none;">Instagram</a>
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+</body>
